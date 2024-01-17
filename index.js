@@ -1280,6 +1280,10 @@ selt.addEventListener("dblclick", function(){
     } , 3000)
 })
 
+document.addEventlistner("contextmenu" , ()=>{
+    e.preventDefault();
+} , false);
+
 
 
 // var arr = [
